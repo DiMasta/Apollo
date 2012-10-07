@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'apollo.ui'
 **
-** Created: Sat Oct 6 01:31:59 2012
+** Created: Sun Oct 7 11:06:17 2012
 **      by: Qt User Interface Compiler version 4.8.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -130,7 +130,7 @@ public:
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">\320\224\321\203\320\273\320\276\320\262\320\276</span></p></body></html>", 0, QApplication::UnicodeUTF8));
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:8pt;\">\320\232\321\200\320\260\321\202\320\272\320\260 \320\270\320\275\321\204\320\276\321\200\320\274\320\260\321\206\320\270\321\217 \320\272\320\260\320\272 \320\264\320\260 \321\201\320\265 \320\270\320\267\320\277\320\276\320\273\320\267\320\262\320\260 \320\277\321\200\320\270\320\273\320\276\320\266\320\265\320\275\320\270\320\265\321\202\320\276.</span></p></body></html>", 0, QApplication::UnicodeUTF8));
         type_label->setText(QApplication::translate("Apollo", "\320\242\320\270\320\277 \321\201\320\277\321\200\320\260\320\262\320\272\320\260:", 0, QApplication::UnicodeUTF8));
         check_type->clear();
         check_type->insertItems(0, QStringList()

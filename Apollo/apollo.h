@@ -26,8 +26,6 @@ public slots:
 private:
     Ui::Apollo *ui;
 
-    //Region_Info all_regions_info[BG_REGIONS_COUNT];
-
     QHash<QString, Region_Info> all_regions_info;
 
     void fill_regions_info();

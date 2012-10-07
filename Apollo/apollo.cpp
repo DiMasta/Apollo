@@ -1,3 +1,5 @@
+#include <QProcess>
+
 #include "apollo.h"
 #include "ui_apollo.h"
 
@@ -23,16 +25,25 @@ void Apollo::OutputCheckButtonClicked()
 
     //First we get the values from the UI elements(type(0,1,2); region(QString))
     QString region_name = ui->region_name->text();
-    //ui->info_text_box->setText(region_name);
 
-    QHash<QString, Region_Info>::const_iterator i = all_regions_info.find(region_name);
-    Region_Info selected_region = i.value();
-    QString temp = selected_region.bank_account;// + "\n" + selected_region.percent;
-    ui->info_text_box->setText(temp);
+    // tova ba4ka za imanea na latinica
+    Region_Info cuurent_region_info = all_regions_info[region_name];
+    QString region_bank_acc = cuurent_region_info.bank_account;
+    double region_percent = cuurent_region_info.percent;
 
+    QString reg_percent_str;
+    reg_percent_str = reg_percent_str.setNum(region_percent);
+    //ui->info_text_box->setText(reg_percent_str);
+
+    //Running notepad
+    QString notepad_path = "C:\\Windows\\notepad.exe";
+    QStringList args;
+    args << "C:\\Users\\Di_Masta\\Desktop\\test.txt";
+    QProcess *notepad = new QProcess();
+    notepad->start(notepad_path, args);
 
     //TODO: Za sega nqma da go vzemam v predvid //Bat nasko ?
-    int check_type = ui->check_type->currentIndex();
+    //int check_type = ui->check_type->currentIndex();
     //QVariant v(check_type);
     //ui->info_text_box->setText(v.toString());
 

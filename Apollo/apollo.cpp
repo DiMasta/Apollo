@@ -26,6 +26,7 @@ Apollo::~Apollo()
 void Apollo::OutputCheckButtonClicked()
 {
     //TODO:
+    //  - saving the chosen region frotm the user
     //  - getting windows path for notepad
     //  - kirilicata (translation tools)
     //  - informaciqta pylna

@@ -28,6 +28,8 @@ private:
 
     QHash<QString, Region_Info> all_regions_info;
 
+    // When the app is started this method fills
+    // the info for the regions in the constructor
     void fill_regions_info();
 };
 

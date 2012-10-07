@@ -7,10 +7,4 @@ struct Region_Info
     double percent;
 };
 
-//struct Region_Info
-//{
-//    QString name;
-//    Percent_Bankacc perc_bank;
-//};
-
 #endif // REGION_INFO_H

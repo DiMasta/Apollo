@@ -1,5 +1,7 @@
 #include "apollo.h"
 
+// Information for all regions in Bulgaria
+
 void Apollo::fill_regions_info()
 {
     all_regions_info.reserve(BG_REGIONS_COUNT);

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'apollo.ui'
 **
-** Created: Sun Oct 7 12:58:37 2012
+** Created: Sun Oct 7 18:09:57 2012
 **      by: Qt User Interface Compiler version 4.8.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
@@ -32,39 +32,62 @@ class Ui_Apollo
 {
 public:
     QWidget *centralWidget;
-    QVBoxLayout *verticalLayout;
+    QVBoxLayout *verticalLayout_2;
     QTextBrowser *info_text_box;
     QSpacerItem *verticalSpacer_2;
     QHBoxLayout *horizontalLayout;
     QLabel *type_label;
     QSpacerItem *horizontalSpacer;
     QComboBox *check_type;
+    QHBoxLayout *horizontalLayout_4;
+    QLabel *label;
+    QLineEdit *lineEdit;
+    QVBoxLayout *verticalLayout;
     QHBoxLayout *horizontalLayout_2;
     QLabel *region_label;
     QSpacerItem *horizontalSpacer_2;
     QLineEdit *region_name;
-    QSpacerItem *verticalSpacer;
+    QHBoxLayout *horizontalLayout_5;
+    QLabel *label_2;
+    QSpacerItem *horizontalSpacer_4;
+    QLineEdit *lineEdit_2;
+    QHBoxLayout *horizontalLayout_6;
+    QLabel *label_3;
+    QSpacerItem *horizontalSpacer_5;
+    QLineEdit *lineEdit_3;
+    QHBoxLayout *horizontalLayout_7;
+    QLabel *label_4;
+    QSpacerItem *horizontalSpacer_6;
+    QLineEdit *lineEdit_4;
+    QHBoxLayout *horizontalLayout_8;
+    QLabel *label_5;
+    QSpacerItem *horizontalSpacer_7;
+    QLineEdit *lineEdit_5;
+    QHBoxLayout *horizontalLayout_9;
+    QLabel *label_6;
+    QSpacerItem *horizontalSpacer_8;
+    QLineEdit *lineEdit_6;
     QPushButton *check_button;
 
     void setupUi(QMainWindow *Apollo)
     {
         if (Apollo->objectName().isEmpty())
             Apollo->setObjectName(QString::fromUtf8("Apollo"));
-        Apollo->resize(268, 317);
+        Apollo->resize(268, 467);
         centralWidget = new QWidget(Apollo);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
-        verticalLayout = new QVBoxLayout(centralWidget);
-        verticalLayout->setSpacing(6);
-        verticalLayout->setContentsMargins(11, 11, 11, 11);
-        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
+        verticalLayout_2 = new QVBoxLayout(centralWidget);
+        verticalLayout_2->setSpacing(6);
+        verticalLayout_2->setContentsMargins(11, 11, 11, 11);
+        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         info_text_box = new QTextBrowser(centralWidget);
         info_text_box->setObjectName(QString::fromUtf8("info_text_box"));
 
-        verticalLayout->addWidget(info_text_box);
+        verticalLayout_2->addWidget(info_text_box);
 
         verticalSpacer_2 = new QSpacerItem(20, 14, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
-        verticalLayout->addItem(verticalSpacer_2);
+        verticalLayout_2->addItem(verticalSpacer_2);
 
         horizontalLayout = new QHBoxLayout();
         horizontalLayout->setSpacing(6);
@@ -84,8 +107,27 @@ public:
         horizontalLayout->addWidget(check_type);
 
 
-        verticalLayout->addLayout(horizontalLayout);
+        verticalLayout_2->addLayout(horizontalLayout);
 
+        horizontalLayout_4 = new QHBoxLayout();
+        horizontalLayout_4->setSpacing(6);
+        horizontalLayout_4->setObjectName(QString::fromUtf8("horizontalLayout_4"));
+        label = new QLabel(centralWidget);
+        label->setObjectName(QString::fromUtf8("label"));
+
+        horizontalLayout_4->addWidget(label);
+
+        lineEdit = new QLineEdit(centralWidget);
+        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
+
+        horizontalLayout_4->addWidget(lineEdit);
+
+
+        verticalLayout_2->addLayout(horizontalLayout_4);
+
+        verticalLayout = new QVBoxLayout();
+        verticalLayout->setSpacing(6);
+        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         horizontalLayout_2 = new QHBoxLayout();
         horizontalLayout_2->setSpacing(6);
         horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
@@ -106,14 +148,113 @@ public:
 
         verticalLayout->addLayout(horizontalLayout_2);
 
-        verticalSpacer = new QSpacerItem(20, 15, QSizePolicy::Minimum, QSizePolicy::Expanding);
+        horizontalLayout_5 = new QHBoxLayout();
+        horizontalLayout_5->setSpacing(6);
+        horizontalLayout_5->setObjectName(QString::fromUtf8("horizontalLayout_5"));
+        label_2 = new QLabel(centralWidget);
+        label_2->setObjectName(QString::fromUtf8("label_2"));
 
-        verticalLayout->addItem(verticalSpacer);
+        horizontalLayout_5->addWidget(label_2);
+
+        horizontalSpacer_4 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_5->addItem(horizontalSpacer_4);
+
+        lineEdit_2 = new QLineEdit(centralWidget);
+        lineEdit_2->setObjectName(QString::fromUtf8("lineEdit_2"));
+
+        horizontalLayout_5->addWidget(lineEdit_2);
+
+
+        verticalLayout->addLayout(horizontalLayout_5);
+
+        horizontalLayout_6 = new QHBoxLayout();
+        horizontalLayout_6->setSpacing(6);
+        horizontalLayout_6->setObjectName(QString::fromUtf8("horizontalLayout_6"));
+        label_3 = new QLabel(centralWidget);
+        label_3->setObjectName(QString::fromUtf8("label_3"));
+
+        horizontalLayout_6->addWidget(label_3);
+
+        horizontalSpacer_5 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_6->addItem(horizontalSpacer_5);
+
+        lineEdit_3 = new QLineEdit(centralWidget);
+        lineEdit_3->setObjectName(QString::fromUtf8("lineEdit_3"));
+
+        horizontalLayout_6->addWidget(lineEdit_3);
+
+
+        verticalLayout->addLayout(horizontalLayout_6);
+
+        horizontalLayout_7 = new QHBoxLayout();
+        horizontalLayout_7->setSpacing(6);
+        horizontalLayout_7->setObjectName(QString::fromUtf8("horizontalLayout_7"));
+        label_4 = new QLabel(centralWidget);
+        label_4->setObjectName(QString::fromUtf8("label_4"));
+
+        horizontalLayout_7->addWidget(label_4);
+
+        horizontalSpacer_6 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_7->addItem(horizontalSpacer_6);
+
+        lineEdit_4 = new QLineEdit(centralWidget);
+        lineEdit_4->setObjectName(QString::fromUtf8("lineEdit_4"));
+
+        horizontalLayout_7->addWidget(lineEdit_4);
+
+
+        verticalLayout->addLayout(horizontalLayout_7);
+
+        horizontalLayout_8 = new QHBoxLayout();
+        horizontalLayout_8->setSpacing(6);
+        horizontalLayout_8->setObjectName(QString::fromUtf8("horizontalLayout_8"));
+        label_5 = new QLabel(centralWidget);
+        label_5->setObjectName(QString::fromUtf8("label_5"));
+
+        horizontalLayout_8->addWidget(label_5);
+
+        horizontalSpacer_7 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_8->addItem(horizontalSpacer_7);
+
+        lineEdit_5 = new QLineEdit(centralWidget);
+        lineEdit_5->setObjectName(QString::fromUtf8("lineEdit_5"));
+
+        horizontalLayout_8->addWidget(lineEdit_5);
+
+
+        verticalLayout->addLayout(horizontalLayout_8);
+
+        horizontalLayout_9 = new QHBoxLayout();
+        horizontalLayout_9->setSpacing(6);
+        horizontalLayout_9->setObjectName(QString::fromUtf8("horizontalLayout_9"));
+        label_6 = new QLabel(centralWidget);
+        label_6->setObjectName(QString::fromUtf8("label_6"));
+
+        horizontalLayout_9->addWidget(label_6);
+
+        horizontalSpacer_8 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_9->addItem(horizontalSpacer_8);
+
+        lineEdit_6 = new QLineEdit(centralWidget);
+        lineEdit_6->setObjectName(QString::fromUtf8("lineEdit_6"));
+
+        horizontalLayout_9->addWidget(lineEdit_6);
+
+
+        verticalLayout->addLayout(horizontalLayout_9);
+
+
+        verticalLayout_2->addLayout(verticalLayout);
 
         check_button = new QPushButton(centralWidget);
         check_button->setObjectName(QString::fromUtf8("check_button"));
 
-        verticalLayout->addWidget(check_button);
+        verticalLayout_2->addWidget(check_button);
 
         Apollo->setCentralWidget(centralWidget);
 
@@ -134,10 +275,22 @@ public:
         type_label->setText(QApplication::translate("Apollo", "\320\242\320\270\320\277 \321\201\320\277\321\200\320\260\320\262\320\272\320\260:", 0, QApplication::UnicodeUTF8));
         check_type->clear();
         check_type->insertItems(0, QStringList()
+         << QApplication::translate("Apollo", "\320\237\321\200\320\276\320\264\320\260\320\266\320\261\320\260", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("Apollo", "\320\227\320\260\320\273\320\270\321\207\320\260\320\262\320\260\320\275\320\265 \320\275\320\260 \320\270\320\277\320\276\321\202\320\265\320\272\320\260", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("Apollo", "\320\227\320\260\320\272\320\276\320\275\320\275\320\260 \320\270\320\277\320\276\321\202\320\265\320\272\320\260", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("Apollo", "\320\224\320\276\320\263\320\276\320\262\320\276\321\200\320\275\320\260 \320\270\320\277\320\276\321\202\320\265\320\272\320\260", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("Apollo", "\320\224\320\260\321\200\320\265\320\275\320\270\321\217 \321\200\320\276\320\264\320\275\320\270\320\275\320\270 - \321\201\321\212\321\200\320\265\320\261\321\200\320\265\320\275\320\260 \320\273\320\270\320\275\320\270\321\217", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("Apollo", "\320\224\320\260\321\200\320\265\320\275\320\270\321\217 \321\200\320\276\320\264\320\275\320\270\320\275\320\270 - \320\277\321\200\320\260\320\262\320\275\320\260 \320\273\320\270\320\275\320\270\321\217", 0, QApplication::UnicodeUTF8)
+         << QApplication::translate("Apollo", "\320\224\320\260\321\200\320\265\320\275\320\270\321\217 \320\275\320\265\321\201\320\262\321\212\321\200\320\267\320\260\320\275\320\270 \320\273\320\270\321\206\320\260", 0, QApplication::UnicodeUTF8)
          << QApplication::translate("Apollo", "\320\234\320\237\320\241", 0, QApplication::UnicodeUTF8)
-         << QApplication::translate("Apollo", "\320\230\320\274\320\276\321\202", 0, QApplication::UnicodeUTF8)
         );
+        label->setText(QApplication::translate("Apollo", "\320\241\321\202\320\276\320\271\320\275\320\276\321\201\321\202 \320\277\320\276 \320\275\320\276\321\202\320\260\321\200\320\270\320\260\320\273\320\265\320\275 \320\260\320\272\321\202:", 0, QApplication::UnicodeUTF8));
         region_label->setText(QApplication::translate("Apollo", "\320\236\320\261\321\211\320\270\320\275\320\260:", 0, QApplication::UnicodeUTF8));
+        label_2->setText(QApplication::translate("Apollo", "\320\224\320\260\320\275\321\212\321\207\320\275\320\260 \321\201\320\273\321\203\320\266\320\261\320\260:", 0, QApplication::UnicodeUTF8));
+        label_3->setText(QApplication::translate("Apollo", "\320\220\320\263\320\265\320\275\321\206\320\270\321\217 \320\277\320\276 \320\262\320\277\320\270\321\201\320\262\320\260\320\275\320\270\321\217\321\202\320\260: ", 0, QApplication::UnicodeUTF8));
+        label_4->setText(QApplication::translate("Apollo", "\320\235\320\236\321\202\320\260\321\200\320\270\320\260\320\273\320\275\320\260 \321\202\320\260\320\272\321\201\320\260: ", 0, QApplication::UnicodeUTF8));
+        label_5->setText(QApplication::translate("Apollo", "\320\224\320\224\320\241:", 0, QApplication::UnicodeUTF8));
+        label_6->setText(QApplication::translate("Apollo", "\320\236\320\261\321\211\320\276:", 0, QApplication::UnicodeUTF8));
         check_button->setText(QApplication::translate("Apollo", "\320\241\320\277\321\200\320\260\320\262\320\272\320\260", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
